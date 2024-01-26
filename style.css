@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ephesis&family=Nova+Square&family=PT+Sans&family=Quicksand&family=Roboto&family=Smooch+Sans:wght@800&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background: linear-gradient(200.00deg, #0066EE 60%, #9383FB 100%);
+    height: 100vh;
+}
+.r img{
+    width: 100%;
+}
+.log{
+    margin-top: 10%;
+}
+.hh{
+    font-weight: 700;
+}
+.r{
+    border-radius: 15px;
+}
+
+
+/* ------------home------------ */
+
+.im1 img{
+    border-radius: 15px;
+    width: 100%;
+}
+.r1{
+    background: linear-gradient(200.00deg, #0066EE 60%, #9383FB 100%);
+}
+.he{
+    font-size: 500%;
+}
+.r1 h2{
+    font-weight: 300;
+    font-size: 50px;
+}
+.hp{
+    font-size: 30px;
+}
+.r1 span{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: yellow;
+}
+.line{
+    width: 40%;
+    border-top: 6px solid yellow;
+}
+
+.r2 h3{
+    font-size: 213%;
+}
+
+.heb{
+    font-size: 265%;
+}
+
+.r1 button{
+    width: 30%;
+    height: 13%;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(31, 209, 31);
+}
+.r1 button:hover{
+    color: rgb(31, 209, 31);
+    background-color: white;
+}
+
+
+.botban{
+    background-image: url(./images/pexels-photo-841130.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+    border-radius: 15px;
+}
+.botban h2{
+    padding-top: 8%;
+}
+.botban button:hover{
+    transform: scale(1.04);
+}
+
+
+
+.foot{
+    padding: 60px 0;
+}
+footer{
+    color: white;
+}
+footer h5{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+footer li{
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 100;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+.mail{
+    margin-left: 50px;
+}
+.m1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey !important;
+    opacity: 1; /* Firefox */
+}
+li:hover{
+    font-size: 14px;
+}
+
+.r2{
+    background-color: #FCEDC6;
+}
+
+.card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/pushup.jpg');
+}
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/bodyweight-squats-1627396495.jpg');
+}
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/plank.png');
+}
+.pp{
+    margin-bottom: 19%;
+}
+.card button{
+    margin: 13% 0;
+}
+.hec{
+    font-size: 250%;
+}
+.hhc{
+    font-weight: 700;
+}
+
+@media(max-width:450px){
+    .hp{
+        margin-top: 0 !important;
+    }
+    .mail{
+        margin-left: 0px;
+    }
+    ul{
+        padding-left: 0 ;
+    }
+}
